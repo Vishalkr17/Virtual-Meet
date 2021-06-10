@@ -1,0 +1,8 @@
+.red{
+  background:red !important;
+  color:white !important;
+  font-weight: 500 !important;
+  &:hover{
+    background:rgb(138, 3, 3) !important;
+  }
+}

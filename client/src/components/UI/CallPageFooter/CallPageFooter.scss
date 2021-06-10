@@ -1,0 +1,98 @@
+.footer-item {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    background: white;
+    z-index: 1;
+    .left-item {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      width: 350px;
+      .icon-block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        padding: 0 20px;
+        .icon {
+          margin-left: 10px;
+          font-size: 20px;
+        }
+        &:hover {
+          cursor: pointer;
+          background:grey;
+        }
+      }
+    }
+    .center-item {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex: 1;
+      .icon-block {
+        background: #fff;
+        border: 1px solid rgb(218, 215, 215);
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 10px;
+        .icon {
+          color:grey;
+          font-size: 20px;
+          &.r {
+            color: red ;
+          }
+        }
+        &:hover {
+          cursor: pointer;
+          box-shadow: 0 0 10px grey;
+        }
+        &.r-bg{
+          background: red;
+        
+          .icon{
+            color:white;
+          }
+        }
+      }
+    }
+    .right-item {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      height: 100%;
+      width: 350px;
+      .icon-block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100%;
+        width: 150px;
+        color: darkgray;
+        .icon {
+          font-size: 20px;
+          margin-bottom: 10px;
+        }
+        .title {
+          margin: 0;
+          font-size: 14px;
+          font-weight: 500;
+        }
+        &:hover {
+          cursor: pointer;
+          background: #eee;
+        }
+      }
+    }
+  }
