@@ -17,7 +17,7 @@ import CallPageFooter from "../UI/CallPageFooter/CallPageFooter";
 import CallPageHeader from "../UI/CallPageHeader/CallPageHeader";
 
 let peer = null;
-const socket = io.connect("http://localhost:3030");
+const socket = io.connect(process.env.BASE_URL);
 const initialState = [];
 
 const CallPage = () => {
